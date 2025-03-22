@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "6655cc6a-730f-4e87-85ef-14350e096a97",
+		"name": "habitat-registeration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33528558"
+	},
+	"item": [
+		{
+			"name": "https://habitatclub.indiahabitat.in/registration?id=4957",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true,
+					"content-type": true,
+					"host": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8",
+						"type": "text"
+					},
+					{
+						"key": "X-MicrosoftAjax",
+						"value": "Delta=true",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.5",
+						"type": "text"
+					},
+					{
+						"key": "Origin",
+						"value": "https://habitatclub.indiahabitat.in",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://habitatclub.indiahabitat.in/registration?id=4968",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"type": "text"
+					},
+					{
+						"key": "Sec-GPC",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "habitatclub.indiahabitat.in",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "4957",
+							"type": "text"
+						},
+						{
+							"key": "ctl10",
+							"value": "UpdatePanel1|Register",
+							"type": "text"
+						},
+						{
+							"key": "FName",
+							"value": "Shubham",
+							"type": "text"
+						},
+						{
+							"key": "LName",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "shubham64negi@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "Mobile",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "NoOfseats",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "__EVENTTARGET",
+							"value": "Register",
+							"type": "text"
+						},
+						{
+							"key": "__EVENTARGUMENT",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "__VIEWSTATE",
+							"value": "dWHxiTn96defBc7NteXPjCB8IfoRk7OKIRwCibZKSkIQBOtpYjJKHOaXcQ5hQ+9GGB5wvO7JSy5KrCvG77MR6JZLI1O8lkoUG1oSNmz7P7aKEKzomVXsicrC0fe39X9vnsNKKc7qWNSIvUfZEePDEsTmObsZR3RwY5SdEYEz5dHAbZ7yuD3j1sYE8BWbGoeLfx+ThJqX0TaPJIlLHMS1XveOJfObWLEm5wrt91EyWTu27Yd7A+sXU0LgUsDgObwS60FO8/aWkN0M+rf6U9eTCEg2DHIjKe4Chscdj76cGPoqO0qg8BBIb3itIImDeY2RS3beIdzgaYwZWcaAzmy1drJdg4BdSZGR0ptAl+JPJuJPwvbspfRIQCSamQ8Yv9fGHaBX1WY4eBOgbhVPQNKYtQAG5yjkV8tgwtNUQGHvBMp/iABtBWEg/4qOdDuDpZcEOZjSlTAD3Ilff2u8iO5lbA==",
+							"type": "text"
+						},
+						{
+							"key": "__EVENTVALIDATION",
+							"value": "c7CAMC0BpN7hppp0KjF+UKDPcZqEPXUMIpnV0fUAZxw3pN3q0fAK5MUo4lM7ZSQOonqWWWkcz4CVmfzcdHyNhpyKrKnkmbFeyq9Wf8s9T/AtRxs4uSQO7QSwAGBBhV3IcHKo3GLK5jX2Y+qqduY3pZpwavAia8sZyXafBzBD7PuPhN4s5VaEJ1LQBfb/gAladxzVFxOLo0G0qbWvaeebncCpA/bdF/g34HOQbvFKvlRP4MICzlSMem6fQGMfZJG65E2JYBuUI6Q/HQ3TU/d+H3YsJmLxAYkrtasl+UC+Jew=",
+							"type": "text"
+						},
+						{
+							"key": "__ASYNCPOST",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "__VIEWSTATEGENERATOR",
+							"value": "0E6B69E9",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://habitatclub.indiahabitat.in/registration?id=4957",
+					"protocol": "https",
+					"host": [
+						"habitatclub",
+						"indiahabitat",
+						"in"
+					],
+					"path": [
+						"registration"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4957"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
